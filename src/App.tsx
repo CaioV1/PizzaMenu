@@ -1,18 +1,22 @@
-import { useState } from 'react';
+import React from 'react';
 
-function App() {
-  const [count, setCount] = useState(0);
+import './index.css';
+import Pizza from './models/Pizza';
+import pizzaList from '../public/data';
+import { Header, Footer, PizzaCard } from './components';
 
-  return (
-    <>
-      <h1>Hello World</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
-    </>
-  )
-}
+const App: React.FC = () => (
+  <div className='container'>
+    <Header title='Pizza Menu'/>
+    {
+      pizzaList.map((pizza: Pizza) => (
+        <ul className="pizzas">
+          <PizzaCard pizzaData={pizza}/>
+        </ul>
+      ))
+    }
+    <Footer />
+  </div>
+)
 
 export default App;
