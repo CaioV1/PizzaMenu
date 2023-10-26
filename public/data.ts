@@ -1,5 +1,6 @@
 export default [
   {
+    id: "A1",
     name: "Focaccia",
     ingredients: "Pão com azeite de olívia italiano",
     price: 6,
@@ -7,6 +8,7 @@ export default [
     soldOut: false,
   },
   {
+    id: "B2",
     name: "Pizza Margherita",
     ingredients: "Tomate, mussarela e manjericão",
     price: 10,
@@ -14,6 +16,7 @@ export default [
     soldOut: false,
   },
   {
+    id: "C3",
     name: "Pizza Espinafre",
     ingredients: "Tomate, mussarela, espinafre, e queijo de ricotta",
     price: 12,
@@ -21,6 +24,7 @@ export default [
     soldOut: false,
   },
   {
+    id: "D4",
     name: "Pizza Funghi",
     ingredients: "Tomate, mussarela, cogumêlos, e cebola",
     price: 12,
@@ -28,6 +32,7 @@ export default [
     soldOut: false,
   },
   {
+    id: "E5",
     name: "Pizza Salamino",
     ingredients: "Tomate, mussarela, e pepperoni",
     price: 15,
@@ -35,6 +40,7 @@ export default [
     soldOut: true,
   },
   {
+    id: "F6",
     name: "Pizza Prosciutto",
     ingredients: "Tomate, mussarela, presunto, rúcula, e queijo burrata",
     price: 18,
